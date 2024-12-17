@@ -6,6 +6,8 @@ function Home() {
       <h1>Bem vindo à página home</h1>
       <br />
       <Link to="/sobre">Sobre</Link>
+      <br />
+      <Link to={"/contato"}>Contato</Link>
     </div>
   );
 }

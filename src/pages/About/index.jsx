@@ -5,7 +5,9 @@ function About() {
     <div>
       <h1>Bem vindo à página sobre</h1>
       <br />
-      <Link to="/">Página Home</Link>
+      <Link to="/">Home</Link>
+      <br />
+      <Link to={"/contato"}>Contato</Link>
     </div>
   );
 }
