@@ -1,7 +1,14 @@
+import { useParams } from "react-router-dom";
+
 function Produto() {
+  const { id } = useParams();
+
   return (
     <div>
-      <h2>Meu produto 123</h2>
+      <h2>PÁGINA DETALHE DO PRODUTO</h2>
+      <span>
+        Meu produto é <strong>{id}</strong>
+      </span>
     </div>
   );
 }
